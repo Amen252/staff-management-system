@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "27e15f0b-ec6b-47a3-903f-fa8bdcd38bdf",
+		"name": "localhost:8080",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44042887",
+		"_collection_link": "https://mohamed-6428565.postman.co/workspace/Mohamed's-Workspace~b00e7303-19cc-47f1-8891-754dc7d3c4f7/collection/44042887-27e15f0b-ec6b-47a3-903f-fa8bdcd38bdf?action=share&source=collection_link&creator=44042887"
+	},
+	"item": [
+		{
+			"name": "/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Mohamed\",\r\n  \"position\": \"Developer\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/staffs/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"staffs",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Mohamed\",\r\n  \"position\": \"Developer\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/staffs/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"staffs",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Untitled Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Mohamed\",\r\n  \"position\": \"Developer\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/staffs",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"staffs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Untitled Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Mohamed\",\r\n  \"position\": \"Developer\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/staffs",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"staffs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
